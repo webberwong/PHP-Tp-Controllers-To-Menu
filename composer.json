@@ -1,0 +1,20 @@
+{
+  "name"   : "hwl/thinkphp-controllers-to-menu",
+  "type"   : "library",
+  "description": "thinkphp controllers DOC block to menu array",
+  "keywords": ["php","thinkphp"],
+  "license": "Apache2",
+  "require": {
+      "php": ">=5.3.0",
+      "zeptech/annotations": "^1.1"
+  },
+  "repositories": [
+    {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+    {"packagist": false}
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hwl\\": "src/"
+    }
+  }
+}
