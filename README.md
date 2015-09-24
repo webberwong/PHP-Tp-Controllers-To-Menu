@@ -3,10 +3,15 @@ Thinkphp 控制器转为菜单数组类库
 根据Thinkphp控制器里写的注释来转为菜单数组,供后台功能菜单使用.<br>
 只适用于 *Thinkphp 3.2* 版本<br>
 
+### 安装
+```
+#下载依赖的库并自动生成composer的自动加载类
+composer require hwl/thinkphp-controllers-to-menu
+```
+
 ## 使用说明
 一般是针对于后台,就使用默认的配置就行,初始化的时候,传入项目文件夹的路径即可
-首先,记得先
-composer update 下载依赖的库并自动生成composer的自动加载类
+
 #### 简单示例
 ```php
 //加入命名空间
